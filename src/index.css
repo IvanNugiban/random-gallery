@@ -4,6 +4,16 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+html,body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -352,4 +362,8 @@ figure {
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
+}
+
+main {
+    flex: 1 1 auto;
 }
