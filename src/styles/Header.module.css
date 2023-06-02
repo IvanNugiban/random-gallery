@@ -1,0 +1,14 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3px 0;
+    background-color: #373A3C;
+}
+
+.headerTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
