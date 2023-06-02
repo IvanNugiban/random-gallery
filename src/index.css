@@ -1,6 +1,11 @@
 html {
     line-height: 1.15; /* 1 */
+    box-sizing: border-box;
     -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 /* Sections
@@ -78,7 +83,6 @@ a {
 
 abbr[title] {
     border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
     text-decoration: underline dotted; /* 2 */
 }
 
@@ -340,4 +344,12 @@ template {
 
 [hidden] {
     display: none;
+}
+
+figure {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
